@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Datos.Tests.DBPruebasTests">
+    <Position X="6.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQRQAAAAAAAAAAAAAAkAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBPruebasTests.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Datos.DBPruebas" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

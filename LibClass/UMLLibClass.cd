@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LibClass.Entrada">
+    <Position X="7.25" Y="1" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>EAACABAAACABCAAkgAgAAAAAAAAAAAACAAAKAgAAAgA=</HashCode>
+      <FileName>Entrada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibClass.EntradaLog">
+    <Position X="7.5" Y="5.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAQgAAAEEAAAAAAAAAAAAAAQAAAAEAAAAAgA=</HashCode>
+      <FileName>EntradaLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibClass.Usuario">
+    <Position X="1.25" Y="1" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAACQIAACkCAAAgAAAAQAAAEEAAAAAAgAABgA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibClass.Utils">
+    <Position X="2.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIgAAAAAAAA=</HashCode>
+      <FileName>Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Datos.DBPruebas">
+    <Position X="10" Y="5.25" Width="6.25" />
+    <AssociationLine Name="usuarios" Type="LibClass.Usuario" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="5.562" />
+        <Point X="7.25" Y="5.563" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.342" Y="0.085" Height="0.182" Width="2.622" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="log" Type="LibClass.EntradaLog" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="7.5" />
+        <Point X="7.5" Y="7.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAKAAQAAAgAAEAAACQAASEAAAAiAAAAAgAADAACAAAI=</HashCode>
+      <FileName>DBPruebas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="usuarios" />
+      <Field Name="log" />
+      <Field Name="entradas" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibClass.Entrada" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibClass.EntradaLog" Collapsed="true">
+    <Position X="6.25" Y="7.25" Width="1.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibClass.Usuario" Collapsed="true">
+    <Position X="6" Y="5.25" Width="1.25" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Datos.ICapaDatos">
+    <Position X="10" Y="0.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAKAAQAAAgAAEAAACAAASEAAAAiAAAAAAAAAAACAAAI=</HashCode>
+      <FileName>ICapaDatos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

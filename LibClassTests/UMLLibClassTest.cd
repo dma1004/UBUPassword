@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LibClass.Tests.EntradaLogTests">
+    <Position X="2.25" Y="2.25" Width="2" />
+    <AssociationLine Name="e" Type="LibClass.Entrada" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.25" />
+        <Point X="4" Y="1.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="elEntrada" Type="LibClass.EntradaLog" FixedToPoint="true">
+      <Path>
+        <Point X="2.438" Y="4.19" />
+        <Point X="2.438" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="elLogin" Type="LibClass.EntradaLog" FixedToPoint="true">
+      <Path>
+        <Point X="3.562" Y="4.19" />
+        <Point X="3.562" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="u" Type="LibClass.Usuario" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.125" Y="4.19" />
+        <Point X="4.125" Y="5.281" />
+        <Point X="5.5" Y="5.281" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAQAIAAAAAAAAAAAAAAACAAKAAIAAAAA=</HashCode>
+      <FileName>EntradaLogTests.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="e" />
+      <Field Name="elEntrada" />
+      <Field Name="elLogin" />
+      <Field Name="u" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibClass.Tests.EntradaTests">
+    <Position X="4.75" Y="2.25" Width="2" />
+    <AssociationLine Name="dueño" Type="LibClass.Usuario" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="4.123" />
+        <Point X="6.25" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="entrada" Type="LibClass.Entrada" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.25" />
+        <Point X="5" Y="1.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAQQCAAAgAAAAAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>EntradaTests.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dueño" />
+      <Field Name="entrada" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibClass.Tests.UsuarioTests">
+    <Position X="7" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAIAAAQAAAAAAAAAAAAAAAEUAAACAAAAAAAA=</HashCode>
+      <FileName>UsuarioTests.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibClass.Tests.UtilsTests">
+    <Position X="6.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UtilsTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibClass.Usuario" Collapsed="true">
+    <Position X="5.5" Y="5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibClass.Entrada" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibClass.EntradaLog" Collapsed="true">
+    <Position X="1.75" Y="5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
